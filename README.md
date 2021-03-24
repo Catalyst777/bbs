@@ -1,24 +1,33 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+#### 掲示板アプリ
 
-Things you may want to cover:
+<概要>
 
-* Ruby version
+Rails6でCRUD機能を備えたアプリケーション
 
-* System dependencies
+<機能>
 
-* Configuration
+- 投稿(画像含む)
 
-* Database creation
+- 投稿表示
 
-* Database initialization
+- 更新
 
-* How to run the test suite
+- 削除
 
-* Services (job queues, cache servers, search engines, etc.)
+<インフラ>
 
-* Deployment instructions
+開発環境にDockerを使用
 
-* ...
+使用したAWSのサービス
+
+- EC2
+
+- S3
+
+- RDS
+
+<挑戦したい事>
+
+ECSでのデプロイ
